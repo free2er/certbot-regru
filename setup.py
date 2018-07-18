@@ -24,7 +24,7 @@ setup(
     version=__version__,
     description="Reg.ru DNS authenticator plugin for Certbot",
     long_description=long_description,
-    long_description_content_type='text/markdown',  # This is important!
+    long_description_content_type='text/markdown',
     url='https://github.com/free2er/certbot-regru',
     author="Max Pryakhin",
     author_email='m.pryakhin@gmail.com',
