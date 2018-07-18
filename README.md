@@ -1,12 +1,14 @@
 # certbot-regru
 Reg.ru DNS authenticator plugin for certbot
 
-An authenticator plugin for [certbot](https://certbot.eff.org/) to support [Let's Encrypt](https://letsencrypt.org/) DNS challenges (dns-01) for domains managed by the nameservers of [Reg.ru](https://www.reg.ru).
+An authenticator plugin for [certbot](https://certbot.eff.org/) to support [Let's Encrypt](https://letsencrypt.org/) 
+DNS challenges (dns-01) for domains managed by the nameservers of [Reg.ru](https://www.reg.ru).
 
 ## Requirements
 * certbot (>=0.21.1)
 
-For older Ubuntu distributions check out this PPA: [ppa:certbot/certbot](https://launchpad.net/~certbot/+archive/ubuntu/certbot)
+For older Ubuntu distributions check out this PPA: 
+[ppa:certbot/certbot](https://launchpad.net/~certbot/+archive/ubuntu/certbot)
 
 ## Installation
 1. First install the plugin:
