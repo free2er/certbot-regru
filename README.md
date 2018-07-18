@@ -29,7 +29,7 @@ For older Ubuntu distributions check out this PPA:
 ## Usage
 Request new certificates via a certbot invocation like this:
 
-    certbot certonly -a certbot-regru:dns -d sub.domain.tld -d *.wildcard.tld
+    sudo certbot certonly -a certbot-regru:dns -d sub.domain.tld -d *.wildcard.tld
 
 Renewals will automatically be performed using the same authenticator and credentials by certbot.
 
