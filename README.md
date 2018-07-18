@@ -37,9 +37,11 @@ Renewals will automatically be performed using the same authenticator and creden
 ```
  --certbot-regru:dns-propagation-seconds PROPAGATION_SECONDS
                         The number of seconds to wait for DNS to propagate
-                        before asking the ACME server to verify the DNS record. (default: 120)
+                        before asking the ACME server to verify the DNS record. 
+                        (default: 120)
  --certbot-regru:dns-credentials PATH_TO_CREDENTIALS
-                        Path to Reg.ru account credentials INI file (default: /etc/letsencrypt/regru.ini)
+                        Path to Reg.ru account credentials INI file 
+                        (default: /etc/letsencrypt/regru.ini)
 
 ```
 
