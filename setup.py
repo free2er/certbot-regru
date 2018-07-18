@@ -16,10 +16,15 @@ data_files = [
     ('/etc/letsencrypt', ['regru.ini'])
 ]
 
+with open('README.md') as f:
+    long_description = f.read()
+
 setup(
     name='certbot-regru',
     version=__version__,
     description="Reg.ru DNS authenticator plugin for Certbot",
+    long_description=long_description,
+    long_description_content_type='text/markdown',  # This is important!
     url='https://github.com/free2er/certbot-regru',
     author="Max Pryakhin",
     author_email='m.pryakhin@gmail.com',

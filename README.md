@@ -13,7 +13,7 @@ For older Ubuntu distributions check out this PPA:
 ## Installation
 1. First install the plugin:
    ```
-   sudo pip3 install ./certbot-regru
+   sudo pip install certbot-regru
    ```
 
 2. Configure it with your Reg.ru Credentials:
@@ -49,5 +49,5 @@ See also `certbot --help certbot-regru:dns` for further information.
 
 ## Removal
    ```
-   sudo pip3 uninstall certbot-regru
+   sudo pip uninstall certbot-regru
    ```
